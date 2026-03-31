@@ -1,0 +1,94 @@
+
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0d1440;
+    color: #fff;
+}
+
+.navbar{
+    background-color: #1b1f5e; 
+}
+.navbar a{
+    color: #e0661f !important;
+}
+.btn-signin{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.hero{
+    background-color: #1b1f5e;
+    padding: 80px 0;
+}
+.hero h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+.hero p{
+    color: #cbd3ff;
+}
+.form-control{
+    background: transparent;
+    border: 1px solid #6c79ff;
+    color: #fff;
+}
+.form-control::placeholder{
+    color: #cbd3ff;
+}
+.btn-demo{
+    background: linear-gradient(90deg,#3b6bff,#1cc8ff);
+    border: none;
+    color: #fff;
+}
+
+.section{
+    padding: 80px 0;
+}
+.section-dark{
+    background-color: #0d1440;
+}
+.section-light{
+    background-color:#1b1f5e;
+}
+.section h2{
+    margin-bottom: 40px;
+}
+
+.card-custom{
+    background: #1b1f5e;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.channel-box{
+    background: #1b1f5e;
+    padding: 50px;
+    border-radius: 12px;
+    text-align:center;
+}
+
+
+.download-box{
+    background: #0d1440;
+    border-radius: 15px;
+    padding: 30px;
+}
+.cta-box{
+    
+    background: #0d1440;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.cta-box:hover{
+    transform: translateY(-5px);
+}
+footer{
+    padding: 40px 0;
+    text-align: center;
+    background-color: #0d1440;
+    color: #cbd3ff;
+}
